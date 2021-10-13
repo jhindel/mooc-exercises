@@ -1,0 +1,9 @@
+baseline: 0.1
+calibration_time: 2021-09-27-19-54-08
+gain: 0.5
+k: 27.0
+limit: 1.0
+omega_max: 8.0
+radius: 0.0318
+trim: -0.003
+v_max: 1.0
