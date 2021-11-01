@@ -240,6 +240,7 @@ class LaneServoingNode(DTROS):
             u (:obj:`tuple(double, double)`): tuple containing [v, w] for the control action.
         """
 
+        # self.loginfo("Publishing command...")
         car_control_msg = Twist2DStamped()
         car_control_msg.header.stamp = rospy.Time.now()
 
