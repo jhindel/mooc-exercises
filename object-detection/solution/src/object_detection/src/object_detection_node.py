@@ -99,8 +99,8 @@ class ObjectDetectionNode(DTROS):
         old_img = image
         from dt_device_utils import DeviceHardwareBrand, get_device_hardware_brand
         if get_device_hardware_brand() != DeviceHardwareBrand.JETSON_NANO:  # if in sim
-            if self._debug:
-                print("Assumed an image was bgr and flipped it to rgb")
+            # if self._debug:
+            #    print("Assumed an image was bgr and flipped it to rgb")
             old_img = image
             image = image[...,::-1].copy()  # image is bgr, flip it to rgb
 
