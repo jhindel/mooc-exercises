@@ -10,10 +10,10 @@ lane_filter_histogram_configuration:
   sigma_phi_0: 0.1
   delta_d: 0.02
   delta_phi: 0.1
-  d_max: 0.2
-  d_min: -0.15
-  phi_min: -0.5 # -1.5
-  phi_max: 0.5 # 1.5
+  d_max: 0.2 # 0.3
+  d_min: -0.1 #-0.15
+  phi_min: -0.8 # -1.5
+  phi_max: 0.8 # 1.5
   linewidth_white: 0.05
   linewidth_yellow: 0.025
   lanewidth: 0.23
